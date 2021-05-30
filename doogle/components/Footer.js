@@ -11,11 +11,11 @@ function Footer() {
             <div className="flex justify-center items-center md:col-span-2 lg:col-span-1 lg:col-start-2">
                 <GlobeIcon className="h-5 mr-1 text-green-700" /> D's since now
             </div>
-            <div className="flex justify-center space-x-8 whitespace-nowwrap md:justify-self-start">
+            <div className="flex justify-center space-x-4 md:space-x-8 whitespace-nowwrap md:justify-self-start">
                 <p>About</p>
                 <p>Advertising</p>
                 <p>Business</p>
-                <p>How Serach works</p>
+                <p>How Search works</p>
             </div>
             <div className="flex justify-center space-x-8 md:ml-auto">
                 <p>Privacy</p>
