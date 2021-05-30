@@ -12,7 +12,7 @@ function Search() {
         if(!query) return;
         router.push(`/search?term=${query}`);
       }
-    return <form className="flex flex-col items-center mt-52 flex-grow w-4/5">
+    return <form className="flex flex-col items-center mt-64 flex-grow w-4/5 mb-4 xl:mb-80 md:mb-36">
         <Image 
         src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
         height={100}
