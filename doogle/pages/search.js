@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Header_Result from "../components/Header_Result";
 
 function Search_Page() {
     return <div>
@@ -6,7 +7,7 @@ function Search_Page() {
             <title>Search Results</title>
             <link rel="icon" href="/favicon.ico" />
         </Head>
-        <h1>Hello world!</h1> 
+        <Header_Result />
     </div>
 }
 
