@@ -23,6 +23,7 @@ function Header(){
       <Avatar url={'https://res.cloudinary.com/dineshscloud/image/upload/v1/blog/users/WhatsApp_Image_2021-04-05_at_12.06.05_AM_csz6xn_qnjvs9_xdgeij'} />
     </div>
   </header>;
+  
 }
 
 

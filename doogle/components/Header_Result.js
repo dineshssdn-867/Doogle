@@ -3,6 +3,7 @@ import { useRouter } from "next/router";
 import { SearchIcon, MicrophoneIcon, XIcon } from "@heroicons/react/solid";
 import { useRef } from "react";
 import Avatar from '../components/Avatar';
+import HeaderOptions from "../components/header_options";
 
 
 function Header_Result(){
@@ -14,12 +15,13 @@ function Header_Result(){
         if(!query) return;
         router.push(`/search?term=${query}`);
       }
-    return (<header className="sticky top-0 bg-white ">
+    return (
+    <header className="sticky top-0 bg-white">
         <div className="flex w-full p-6 items-center">
             <Image 
-            src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
-            height={40}
-            width={120}
+            src="https://res.cloudinary.com/dineshscloud/image/upload/v1622442901/doggle_gufarm.png"
+            height={50}
+            width={140}
             className="cursor-pointer"
             onClick={() => router.push('/')}
             />
@@ -32,6 +34,7 @@ function Header_Result(){
             </form>
             <Avatar url={'https://res.cloudinary.com/dineshscloud/image/upload/v1/blog/users/WhatsApp_Image_2021-04-05_at_12.06.05_AM_csz6xn_qnjvs9_xdgeij'} className="ml-auto"/>
         </div>
+        <HeaderOptions />
     </header>
     );
 }
