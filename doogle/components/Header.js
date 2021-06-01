@@ -3,6 +3,7 @@ import Avatar from '../components/Avatar';
 function Header(){
     return    <header className="flex w-full p-5 justify-between text-gray-700">
     <div className="flex space-x-4 items-center">
+      <p className="link text-gray">Under development</p>
     </div>
     <div className="flex space-x-4 items-center">
       <p className="link">Gmail</p>
@@ -20,7 +21,7 @@ function Header(){
       <path d="M10006 2694 c-102 -19 -238 -64 -344 -116 -230 -113 -447 -328 -567 -564 -93 -181 -135 -364 -135 -584 0 -357 120 -652 368 -903 104 -105 205 -179 327 -241 191 -96 364 -136 585 -136 351 0 643 117 891 357 202 196 327 429 374 699 19 112 19 336 0 448 -33 186 -112 375 -221 527 -67 92 -213 237 -305 302 -144 102 -336 181 -515 212 -109 19 -351 18 -458 -1z"/>
       </g>
       </svg>
-      <Avatar url={'https://res.cloudinary.com/dineshscloud/image/upload/v1/blog/users/WhatsApp_Image_2021-04-05_at_12.06.05_AM_csz6xn_qnjvs9_xdgeij'} />
+      <Avatar url={'https://res.cloudinary.com/dineshscloud/image/upload/v1621773471/blog/users/person-icon-blue-7560_kbuv5j_srefhg.png'} />
     </div>
   </header>;
   
