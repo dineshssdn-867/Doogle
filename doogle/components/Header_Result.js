@@ -26,8 +26,8 @@ function Header_Result(){
             onClick={() => router.push('/')}
             />
             <form className="flex flex-grow px-6 py-3 ml-10 mr-5 border border-gray-200 rounded-full shadow-lg max-w-3xl items-center" action='https://www.google.com/search?btnI=I&q=query'>
-                <input type="text" name="query" value={router.query.term} ref={serachInputRef} className="flex-grow focus:outline-none w-full" />
-                <XIcon className="h-7 sm:mr-3 text-gray-500 cursor-pointer transition duration-100 transform hover:scale-125" onClick={() => {serachInputRef.current.value = ""}}/>
+                <input type="text" name="query" defaultValue={router.query.term} editable="true" ref={serachInputRef} className="flex-grow focus:outline-none w-full" />
+                <XIcon className="h-7 sm:mr-3 text-gray-500 cursor-pointer transition duration-100 transform hover:scale-125" onClick={() => {serachInputRef.current.value = "" }}/>
                 <MicrophoneIcon className="mr-3 h-6 hidden sm:inline-flex text-blue-500 border-l-2 pl-4 border-gray-300"/>
                 <SearchIcon className="h-6 text-blue-500 hidden sm:inline-flex"/>
                 <button hidden type="submit" onClick={search}></button>

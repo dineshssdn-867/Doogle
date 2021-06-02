@@ -2,7 +2,6 @@ import { SearchIcon, MicrophoneIcon } from "@heroicons/react/solid";
 import Image from "next/image/";
 import { useRef } from "react";
 import { useRouter } from "next/router";
-import redirect from 'nextjs-redirect'
 
 
 function Search() {
