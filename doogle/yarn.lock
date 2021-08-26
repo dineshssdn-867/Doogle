@@ -910,7 +910,7 @@ datasette@1.0.1:
   dependencies:
     comparejs "1.0.0"
     eventemitter2 "5.0.1"
-    lodash "4.17.5"
+    lodash "^4.17.21"
 
 debug@2, debug@2.6.9:
   version "2.6.9"
@@ -3018,7 +3018,7 @@ tailwind@4.0.0:
     stethoskop "1.0.0"
     timer2 "1.0.0"
     uuidv4 "3.0.1"
-    ws "^6.2.0"
+    ws "^6.2.2"
 
 tailwindcss@^2.1.2:
   version "2.1.3"
